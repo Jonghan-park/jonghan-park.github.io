@@ -147,7 +147,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "github.com/jonghan-park"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -291,6 +291,7 @@ defaults:
       path: ""
       type: posts
     values:
+      show_date: true
       layout: single
       author_profile: true
       read_time: true
