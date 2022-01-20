@@ -9,10 +9,34 @@ tags:
 ---
 
 # What is React?
->**React** is a declarative, efficient, and flexible **JavaScript library** for building user interfaces. It lets you compose complex UIs from small 
+**React** is a declarative, efficient, and flexible **JavaScript library** for building user interfaces. It lets you compose complex UIs from small 
 and isolated pieces of code called “components”.
->
+
+React is for **Web** and **Mobile** and not *Framework* like Angular and Blazor, and React is not MVC design pattern.
 ___
+
+# Why is React a trend?
+- Independent **components** based
+- Constant maintenance by Facebook
+- JSX(JS + HTML)
+  HTML is used in JS.
+- Virtual DOM
+  Developer can update a specific part in webpage rather than whole webpage.
+___
+
+# What famous websites are built with React?
+- Facebook
+- Instagram
+- Netflix
+- Uber
+- The New York Times
+- Reddit
+- Airbnb
+- Salesforce
+- Dropbox
+- CNN
+___
+
 # Install Node.js and npm
 To develop React app, primary tools in Node.js will be used.
 ![Image Node.js](/assets/Node-js.jpg)
