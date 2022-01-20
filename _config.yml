@@ -24,7 +24,7 @@ description              : "An amazing website."
 url                      : "https://jonghan-park.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/bio-photo.jpg"
+teaser                   : # "/assets/bio-photo.jpg"
 logo                     : "/assets/Logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Jonghan Park"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/bio-photo.jpg"
   bio              : "I am an developer."
   location         : "Calgary, Canada"
   email            : "jonghan.park@edu.sait.ca"
