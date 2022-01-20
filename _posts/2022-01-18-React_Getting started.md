@@ -13,6 +13,7 @@ tags:
 and isolated pieces of code called “components”.
 
 React is for **Web** and **Mobile** and not *Framework* like Angular and Blazor, and React is not MVC design pattern.
+
 ___
 
 # Why is React a trend?
@@ -22,6 +23,7 @@ ___
   HTML is used in JS.
 - Virtual DOM
   Developer can update a specific part in webpage rather than whole webpage.
+
 ___
 
 # What famous websites are built with React?
@@ -35,6 +37,7 @@ ___
 - Salesforce
 - Dropbox
 - CNN
+
 ___
 
 # Install Node.js and npm
