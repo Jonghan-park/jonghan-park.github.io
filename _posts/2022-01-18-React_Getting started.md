@@ -19,9 +19,9 @@ ___
 # Why is React a trend?
 - Independent **components** based
 - Constant maintenance by Facebook
-- JSX(JS + HTML)
+- JSX(JS + HTML)  
   HTML is used in JS.
-- Virtual DOM
+- Virtual DOM  
   Developer can update a specific part in webpage rather than whole webpage.
 
 ___
