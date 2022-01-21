@@ -23,7 +23,7 @@ name                     : "Jonghan Park"
 description              : "An amazing website."
 url                      : "https://jonghan-park.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Jonghan-park/jonghan-park.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # "/assets/bio-photo.jpg"
 logo                     : "/assets/Logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
