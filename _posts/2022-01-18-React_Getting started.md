@@ -1,7 +1,7 @@
 ---
 title: "React: Getting started"
 header:
-  image: /assets/ReactTeaserImg.jpg
+  og_image: /assets/ReactTeaserImg.jpg
 categories:
   - React
 tags:
