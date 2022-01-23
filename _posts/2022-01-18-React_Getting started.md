@@ -42,6 +42,15 @@ ___
 
 ___
 
+# Install Visual studio code
+
+![Image VisualStudioCode](/assets/VisualStudioCode.jpg)
+
+http://code.visualstudio.com/download
+
+
+___
+
 # Install Node.js and npm
 To develop React app, primary tools in Node.js will be used.
 ![Image Node.js](/assets/Node-js.jpg)
