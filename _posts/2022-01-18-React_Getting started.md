@@ -46,7 +46,7 @@ ___
 
 ![Image VisualStudioCode](/assets/VisualStudioCode.jpg)
 
-http://code.visualstudio.com/download
+[VisualStudioCode download link](http://code.visualstudio.com/download)
 
 
 ___
@@ -54,7 +54,7 @@ ___
 # Install Node.js and npm
 To develop React app, primary tools in Node.js will be used.
 ![Image Node.js](/assets/Node-js.jpg)
-#### Node.js official web page (https://nodejs.org/en/)
+#### Node.js official web page [Node.js download website link](https://nodejs.org/en/)
 
 You can check whether Node.js is installed or not by typing below code on cmd
 
@@ -81,7 +81,7 @@ npx create-react-app my-first-app
 
 <iframe src="https://giphy.com/embed/tXL4FHPSnVJ0A" width="480" height="317" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/kim-novak-tXL4FHPSnVJ0A">via GIPHY</a></p>
 
-## Be patience
+## Be patient
 
 Complete installing !
 ![Image CreateReactApp](/assets/CreateReactApp.jpg)
