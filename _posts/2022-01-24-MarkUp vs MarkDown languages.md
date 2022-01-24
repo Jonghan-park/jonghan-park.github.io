@@ -26,6 +26,7 @@ ___
   .
 
 ![Image Markup language](/assets/htmlAndXml.jpg)
+
 ___
 
 # Markdown language
@@ -36,6 +37,7 @@ ___
  Since it aims for a document style that is easy to read and write, the complex tag structure disappears and allows you to write by knowing simple texts and a few grammar.
 
 ![Image Markup language](/assets/markdownLogo.jpg)
+
 ___
 
 ### *Those two languages are not programming languages !!*
