@@ -11,7 +11,7 @@ tags:
 ---
 
 # What is React?
->>**React** is a declarative, efficient, and flexible **JavaScript library** for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.
+>**React** is a declarative, efficient, and flexible **JavaScript library** for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.
 
 React is for **Web** and **Mobile** and not *Framework* like Angular and Blazor, and React is not MVC design pattern.
 
