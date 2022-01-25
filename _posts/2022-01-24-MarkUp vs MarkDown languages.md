@@ -20,10 +20,10 @@ ___
 # Examples of Markup languages
 - HTML (The most common)
 - XML
-- XHTML
-  .
-  .
-  .
+- XHTML  
+   .
+   .
+   .
 
 ![Image Markup language](/assets/htmlAndXml.jpg)
 
