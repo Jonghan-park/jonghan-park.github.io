@@ -99,6 +99,9 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+# Header
+header: 
+  image: /assets/mainImage.jpg
 
 # Site Author
 author:
