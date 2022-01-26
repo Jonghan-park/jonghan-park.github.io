@@ -100,8 +100,7 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 # Header
-header: 
-  image: /assets/mainImage.jpg
+
 
 # Site Author
 author:
@@ -110,6 +109,8 @@ author:
   bio              : "I am enthusiastic about learning new technology."
   location         : "Calgary, Canada"
   email            : "jonghan.park@edu.sait.ca"
+  header: 
+    image: /assets/mainImage.jpg
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
