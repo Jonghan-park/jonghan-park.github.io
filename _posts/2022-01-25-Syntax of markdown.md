@@ -31,21 +31,21 @@ ___
 
 
 - Bold text
-Put "**" or "__" before and after a word.  
+Put ** or __ before and after a word.  
 This is a **test** text.  
 This is a __test__ text.
 
 ___
 
 - Italic 
-Put "*" or "_" before and after a word.  
+Put * or _ before and after a word.  
 This is a *test* text.
 This is a _test_ text.
 
 ___
 
 - Bold and Italic  
-Put "***" or "___" before and after a word.
+Put *** or ___ before and after a word.
 This is a ***test*** text.
 This is a ___test___ text.
 
