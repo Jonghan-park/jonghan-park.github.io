@@ -6,5 +6,7 @@ main:
     url: /java/
   - title: "React"
     url: /react/
+  - title: "Others"
+    url: /others/
   - title: "About"
     url: /about/
