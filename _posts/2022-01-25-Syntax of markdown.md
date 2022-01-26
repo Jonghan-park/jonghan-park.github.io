@@ -7,12 +7,12 @@ tags:
 ---
 
 - Heading
-# Heading1  > "# Heading" or "========="
-## Heading2 > "## Heading" or "--------"
-### Heading3 > "### Heading"
-#### Heading4 > "#### Heading"
-##### Heading5 > "##### Heading"
-###### Heading6 > "###### Heading"
+# Heading1
+## Heading2 
+### Heading3 
+#### Heading4
+##### Heading5 
+###### Heading6 
 
 ___
 
