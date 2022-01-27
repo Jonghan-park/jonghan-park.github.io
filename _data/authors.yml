@@ -3,4 +3,4 @@
 
 # Header
 header:
-  image: "/assets/mainImage.jpg"
+  image: /assets/mainImage.jpg
