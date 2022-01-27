@@ -100,7 +100,9 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 # Header
-
+header:
+  overlay_image: /assets/mainImage.jpg
+  overlay_filter: 0.7
 
 # Site Author
 author:
