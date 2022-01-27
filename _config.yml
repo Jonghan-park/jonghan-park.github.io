@@ -101,8 +101,7 @@ analytics:
 
 # Header
 header:
-  overlay_image: "/assets/mainImage.jpg"
-  overlay_filter: 0.7
+  image: "/assets/mainImage.jpg"
 
 # Site Author
 author:

@@ -3,10 +3,10 @@ main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Java"
-    url: /java/
+    url: /_posts/
   - title: "React"
-    url: /react/
+    url: /_posts/
   - title: "Others"
-    url: /others/
+    url: /_posts/
   - title: "About"
-    url: /about/
+    url: /_posts/
