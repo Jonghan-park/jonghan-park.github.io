@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "One Step Closer"
 title_separator          : "-"
 header:
-  image: /assets/mainImage.jpg
+  image: "/assets/mainImage.jpg"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jonghan Park"
 description              : "An amazing website."
