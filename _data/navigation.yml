@@ -1,12 +1,10 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Java"
-    url: /_posts/
+    url: _posts/Java/
   - title: "React"
-    url: /_posts/
+    url: _posts/React/
   - title: "Others"
-    url: /_posts/
+    url: _posts/Others/
   - title: "About"
     url: /_posts/
