@@ -18,7 +18,6 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "en-US"
 title                    : "One Step Closer"
 title_separator          : "-"
-header                   : "/assets/mainImage.jpg"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jonghan Park"
 description              : "An amazing website."
