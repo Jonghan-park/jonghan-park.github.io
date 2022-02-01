@@ -6,6 +6,7 @@ tags:
   - Markup
   - Markdown
   - HTML
+  comments: true
 ---
 
 

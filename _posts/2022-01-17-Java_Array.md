@@ -5,6 +5,7 @@ categories:
 tags:
   - Java
   - Array
+  comments: true
 ---
 
 # Array
