@@ -7,7 +7,6 @@ categories:
 tags:
   - React
   - Hello World
-  comments: true
 ---
 
 # Hello World

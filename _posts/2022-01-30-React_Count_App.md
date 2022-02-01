@@ -7,7 +7,6 @@ categories:
 tags:
   - React
   - Count app
-  comments: true
 ---
 
 This is the project using react I want to learn. The purpose of the project is getting familiar with react and learning how to use react features on the project.

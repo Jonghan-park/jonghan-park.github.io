@@ -4,7 +4,6 @@ categories:
   - Others
 tags:
   - Markdown
-  comments: true
 ---
 
 - Heading

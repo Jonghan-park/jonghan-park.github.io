@@ -8,7 +8,6 @@ tags:
   - React
   - Initial setting
   - Setting
-  comments: true
 ---
 
 # What is React?
