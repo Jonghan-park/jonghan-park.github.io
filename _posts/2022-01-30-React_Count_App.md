@@ -23,3 +23,6 @@ After that, I can use bootstrap simply putting a below code in the index.js of t
 ```
 import 'bootstrap/dist/css/bootstrap.css';
 ```
+
+Now, I can use the bootstrap with react.
+
