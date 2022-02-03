@@ -18,3 +18,17 @@ I've learned the project from YouTube.
 Make components folder underneath src.
 And then, make a file named counter.jsx
 
+![Image react components file structure](/assets/componentsFileStructure.png)
+
+According to this above video, YouTuber highly encouraged using extention for efficiency.
+
+![Image react extention tab](/assets/ExtentionTab.png)
+
+Type **"Simple React Snippets"** on the search bar.
+
+![Image react extention](/assets/Extention.png)
+
+Click the install button.
+
+![Image install extention](/assets/InstallExtention.png)
+
