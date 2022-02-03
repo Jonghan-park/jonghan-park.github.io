@@ -9,6 +9,8 @@ tags:
   - Components
 ---
 
+#### This posting is going to explain how to use components in React.
+
 ```
 import React, { Component } from "react";
 
