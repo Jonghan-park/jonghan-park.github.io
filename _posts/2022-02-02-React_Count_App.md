@@ -112,3 +112,41 @@ I can use any vaild java script expression in { }
 
 ![Image Hello and Button](/assets/resultFour.png)
 
+Now, I'm going to make a format of the count.
+If the count is zero, it will display 'Zero'
+To implement this, I should make a method in the Counter components.
+```
+class Counter extends Component {
+  state = {
+      count: 0
+   };
+
+  render() {
+    return (
+      <div>
+        <span>{4 + 4}</span>
+        <button>Increment</button>
+      </div>
+    );
+  }
+
+  formatCount() {
+    return this.state.count === 0 ? 'Zero' : this.state.count;
+  }
+}
+```
+I just made formatCount() method. 
+
+```
+formatCount() {
+    return this.state.count === 0 ? 'Zero' : this.state.count;
+  }
+```
+I can consider improving code for code usability.
+```this.state``` is stored count variable.
+```
+formatCount() {
+    const { count } = this.state;
+    return count === 0 ? 'Zero' : count;
+  }
+```
