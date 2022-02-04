@@ -150,3 +150,31 @@ formatCount() {
     return count === 0 ? 'Zero' : count;
   }
 ```
+And now, I can use formatCount() method.
+```
+class Counter extends Component {
+  state = {
+      count: 0
+   };
+
+  render() {
+    return (
+      <div>
+        <span>{this.formatCount()}</span>
+        <button>Increment</button>
+      </div>
+    );
+  }
+
+  formatCount() {
+    const { count } = this.state;
+    return count === 0 ? 'Zero' : count;
+  }
+}
+```
+![Image Zero](/assets/zeroAndOne.png)
+
+When count is 1,
+
+![Image Zero](/assets/zeroAndOne2.png)
+
