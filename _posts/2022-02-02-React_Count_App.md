@@ -45,4 +45,31 @@ And then, make a file named counter.jsx
 
 ![Image install extention](/assets/cc.png)
 
+What if you want to use two tags or more like below code, 
 
+```
+class Counter extends Component {
+  render() {
+    return <h1>Hello World</h1><button>Increment</button>;
+  }
+}
+```
+
+You can use two tags or more using ```<div>``` tag.
+
+```
+class Counter extends Component {
+  render() {
+  return (
+      <div>
+        <h1>Hello World</h1>
+        <button>Increment</button>
+      </div>
+    );
+  }
+}
+```
+
+The result
+
+![Image Hello and Button](/assets/helloAndButton.png)
