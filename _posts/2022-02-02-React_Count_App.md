@@ -20,7 +20,7 @@ And then, make a file named counter.jsx
 
 ![Image react components file structure](/assets/componentsFileStructure.png)
 
-#### According to this above video, YouTuber highly encouraged using extention for efficiency.
+#### According to this above video, YouTuber highly encouraged us using extention for efficiency.
 
 ![Image react extention tab](/assets/ExtentionTab.png)
 
@@ -73,3 +73,42 @@ class Counter extends Component {
 The result
 
 ![Image Hello and Button](/assets/helloAndButton.png)
+
+### State 
+```
+state = {
+    
+   };
+```
+>React components has a built-in state object.
+The state object is where you store property values that belongs to the component. When the state object changes, the component re-renders.
+
+"State has any data that component needs."
+
+In the ```<div>``` tag, I can render value dynamically using { }
+```
+state = {
+      count: 0
+   };
+```
+
+```
+<div>
+  <span>{this.state.count}</span>
+  <button>Increment</button>
+</div>
+```
+```this``` is reference of current object.
+
+![Image Hello and Button](/assets/resultCounterButton.png)
+
+I can use any vaild java script expression in { }
+```
+<div>
+  <span>{4 + 4}</span>
+  <button>Increment</button>
+</div>
+```
+
+![Image Hello and Button](/assets/resultFour.png)
+
