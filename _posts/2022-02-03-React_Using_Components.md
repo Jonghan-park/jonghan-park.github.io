@@ -22,4 +22,5 @@ class Counter extends Component {
  
 export default Counter;
 ```
+This is an **jsx** expression.
 
