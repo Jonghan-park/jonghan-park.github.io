@@ -24,3 +24,6 @@ export default Counter;
 ```
 This is an **jsx** expression.
 
+In the index.js, import Counter component
+
+![Image import counter](/assets/importCounter.png)
