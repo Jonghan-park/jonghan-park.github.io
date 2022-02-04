@@ -27,3 +27,7 @@ This is an **jsx** expression.
 In the index.js, import Counter component
 
 ![Image import counter](/assets/importCounter.png)
+
+You can see the result using react component.
+
+![Image result hello world](/assets/resultHelloWorld.png)
