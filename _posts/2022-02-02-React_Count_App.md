@@ -178,3 +178,9 @@ When count is 1,
 
 ![Image Zero](/assets/zeroAndOne2.png)
 
+I can use bootstrap in components.
+```
+<span className="bg bg-primary m-2">{this.formatCount()}</span>
+```
+```class``` can't use in the tag to define class name in react because
+```class``` is reserved keyword, so use ```className```
