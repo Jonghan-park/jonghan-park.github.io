@@ -2,8 +2,6 @@
 title: "Markup vs Markdown languages"
 categories:
   - Others
-layout: default
-comments: true
 tags:
   - Markup
   - Markdown

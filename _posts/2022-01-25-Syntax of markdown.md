@@ -2,8 +2,6 @@
 title: "Syntax of markdown"
 categories:
   - Others
-layout: default
-comments: true
 tags:
   - Markdown
 ---
