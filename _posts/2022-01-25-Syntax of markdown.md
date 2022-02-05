@@ -2,10 +2,10 @@
 title: "Syntax of markdown"
 categories:
   - Others
-tags:
-  - Markdown
 layout: default
 comments: true
+tags:
+  - Markdown
 ---
 
 - Heading

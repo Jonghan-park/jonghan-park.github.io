@@ -2,14 +2,14 @@
 title: "React: Getting started"
 header:
   image: /assets/ReactImage.jpg
+layout: default
+comments: true
 categories:
   - React
 tags:
   - React
   - Initial setting
   - Setting
-layout: default
-comments: true
 ---
 
 # What is React?

@@ -4,11 +4,11 @@ header:
   image: /assets/ReactImage.jpg
 categories:
   - React
+layout: default
+comments: true
 tags:
   - React
   - Hello World
-layout: default
-comments: true
 ---
 
 # Hello World

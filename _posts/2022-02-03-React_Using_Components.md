@@ -4,11 +4,11 @@ header:
   image: /assets/ReactImage.jpg
 categories:
   - React
+layout: default
+comments: true
 tags:
   - React
   - Components
-layout: default
-comments: true
 ---
 
 #### This posting is going to explain how to use components in React.

@@ -4,11 +4,11 @@ header:
   image: /assets/ReactImage.jpg
 categories:
   - React
+layout: default
+comments: true
 tags:
   - React
   - Bootstrap
-layout: default
-comments: true
 ---
 
  
