@@ -1,10 +1,10 @@
 # main links
 main:
   - title: "Java"
-    url: _posts/Java/
+    url: /Java/
   - title: "React"
-    url: _posts/React/
+    url: /React/
   - title: "Others"
-    url: _posts/Others/
+    url: /Others/
   - title: "About"
     url: /_posts/
