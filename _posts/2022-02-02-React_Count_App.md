@@ -7,7 +7,7 @@ categories:
 tags:
   - React
   - Count app
-  layout: default
+layout: default
 comments: true
 ---
 

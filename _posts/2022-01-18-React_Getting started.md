@@ -8,7 +8,7 @@ tags:
   - React
   - Initial setting
   - Setting
-  layout: default
+layout: default
 comments: true
 ---
 

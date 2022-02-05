@@ -7,7 +7,7 @@ categories:
 tags:
   - React
   - Components
-  layout: default
+layout: default
 comments: true
 ---
 

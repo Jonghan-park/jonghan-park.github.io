@@ -6,7 +6,7 @@ tags:
   - Markup
   - Markdown
   - HTML
-  layout: default
+layout: default
 comments: true
 ---
 

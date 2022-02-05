@@ -4,7 +4,7 @@ categories:
   - Others
 tags:
   - Markdown
-  layout: default
+layout: default
 comments: true
 ---
 
