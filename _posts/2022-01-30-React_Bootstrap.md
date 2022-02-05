@@ -7,6 +7,8 @@ categories:
 tags:
   - React
   - Bootstrap
+  layout: default
+comments: true
 ---
 
  

@@ -7,6 +7,8 @@ categories:
 tags:
   - React
   - Components
+  layout: default
+comments: true
 ---
 
 #### This posting is going to explain how to use components in React.

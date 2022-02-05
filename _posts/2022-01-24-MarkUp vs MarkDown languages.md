@@ -6,6 +6,8 @@ tags:
   - Markup
   - Markdown
   - HTML
+  layout: default
+comments: true
 ---
 
 

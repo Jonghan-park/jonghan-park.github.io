@@ -4,6 +4,8 @@ categories:
   - Others
 tags:
   - Markdown
+  layout: default
+comments: true
 ---
 
 - Heading

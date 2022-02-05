@@ -7,6 +7,8 @@ categories:
 tags:
   - React
   - Hello World
+  layout: default
+comments: true
 ---
 
 # Hello World
