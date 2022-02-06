@@ -33,7 +33,7 @@ classes += this.state.count === 0 ? "warning" : "primary";
 These two lines can be encapsulated using refactor feature provided in IDE.
 
 <video width="640" height="480" controls>
-  <source src="/assets/video/SimulateRefactor.mp4" type="video/mp4">
+  <source src="/assets/Video/SimulateRefactor.mp4" type="video/mp4">
 </video>
 
 ```
