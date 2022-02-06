@@ -32,6 +32,24 @@ classes += this.state.count === 0 ? "warning" : "primary";
 ```
 These two lines can be encapsulated using refactor feature provided in IDE.
 
-<video width="320" height="240" controls>
+<video width="640" height="480" controls>
   <source src="/assets/video/SimulateRefactor.mp4" type="video/mp4">
 </video>
+
+```
+ render() {
+    
+    return (
+      <div>
+        <span className={ this.getBadgeMethod() }>{this.formatCount()}</span>
+        <button className="btn btn-secondary btn-sm">Increment</button>
+      </div>
+    );
+  }
+
+  getBadgeMethod() {
+    let classes = "bg m-2 bg-";
+    classes += this.state.count === 0 ? "warning" : "primary";
+    return classes;
+  }
+```
