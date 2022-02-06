@@ -185,3 +185,21 @@ I can use bootstrap in components.
 ```
 ```class``` can't use in the tag to define class name in react because
 ```class``` is reserved keyword, so use ```className```
+
+In JSX, I can use style attribute.
+```
+styles = {
+    fontSize:10,
+    fontWeight:'bold'
+   };
+
+  render() {
+    return (
+      <div>
+        <span style={ styles } className="bg bg-primary m-2">{this.formatCount()}</span>
+        <button className="btn btn-secondary btn-sm">Increment</button>
+      </div>
+    );
+  }
+```
+
