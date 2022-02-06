@@ -77,3 +77,14 @@ ___
 |--------------|-----------|------------|
 | Juicy Apples | 1.99      | *7*        |
 | Bananas      | **1.89**  | 5234       |
+
+- Embed video
+```
+<video width="320" height="240" controls>
+  <source src="/assets/Video/SimulateRefactor.mp4" type="video/mp4">
+</video>
+```
+<video width="320" height="240" controls>
+  <source src="/assets/Video/SimulateRefactor.mp4" type="video/mp4">
+</video>
+
