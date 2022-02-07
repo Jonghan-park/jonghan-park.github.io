@@ -53,7 +53,7 @@ state = {
       items: ['item1', 'item2', 'item3']
    };
 
-   renderTags() {
+   renderItems() {
        if(this.state.items.length === 0) return <p>There are no items!</p>;
 
        return <ul>{ this.state.items.map(item => <li>{ item }</li>)}</ul>;
@@ -63,9 +63,55 @@ state = {
     
     return (
       <div>
-        { this.renderTags() }
+        { this.renderItems() }
       </div>
     );
   }
   ```
   If the items array is empty, the paragraph tag will display.
+
+I can write same funtion in another way.
+  ```js
+state = {
+      count: 0
+      items: ['item1', 'item2', 'item3']
+   };
+
+   renderItems() {
+       if(this.state.items.length === 0) return <p>There are no items!</p>;
+
+       return <ul>{ this.state.items.map(item => <li>{ item }</li>)}</ul>;
+   }
+
+  render() {
+    
+    return (
+      <div>
+        { this.state.items.length === 0 && "Please create a new item!" }
+        { this.renderItems() }
+      </div>
+    );
+  }
+  ```
+
+```js
+if(this.state.items.length === 0) return <p>There are no items!</p>;
+return <ul>{ this.state.items.map(item => <li>{ item }</li>)}</ul>;
+```
+Same with
+```js   
+{ this.state.items.length === 0 && "Please create a new item!" }
+```
+
+How?  
+
+true && false = false  
+true && "Hello" = ??  
+  
+  
+   
+  
+    
+    
+   
+Answer is Hello
