@@ -47,7 +47,7 @@ And then, make a file named counter.jsx
 
 What if you want to use two tags or more like below code, 
 
-```
+```js
 class Counter extends Component {
   render() {
     return <h1>Hello World</h1><button>Increment</button>;
@@ -57,7 +57,7 @@ class Counter extends Component {
 
 You can use two tags or more using ```<div>``` tag.
 
-```
+```js
 class Counter extends Component {
   render() {
   return (
@@ -75,7 +75,7 @@ The result
 ![Image Hello and Button](/assets/helloAndButton.png)
 
 ### State 
-```
+```js
 state = {
     
    };
@@ -86,13 +86,13 @@ The state object is where you store property values that belongs to the componen
 "State has any data that component needs."
 
 In the ```<div>``` tag, I can render value dynamically using { }
-```
+```js
 state = {
       count: 0
    };
 ```
 
-```
+```js
 <div>
   <span>{this.state.count}</span>
   <button>Increment</button>
@@ -103,7 +103,7 @@ state = {
 ![Image Hello and Button](/assets/resultCounterButton.png)
 
 I can use any vaild java script expression in { }
-```
+```js
 <div>
   <span>{4 + 4}</span>
   <button>Increment</button>
@@ -115,7 +115,7 @@ I can use any vaild java script expression in { }
 Now, I'm going to make a format of the count.
 If the count is zero, it will display 'Zero'
 To implement this, I should make a method in the Counter components.
-```
+```js
 class Counter extends Component {
   state = {
       count: 0
@@ -137,21 +137,21 @@ class Counter extends Component {
 ```
 I just made formatCount() method. 
 
-```
+```js
 formatCount() {
     return this.state.count === 0 ? 'Zero' : this.state.count;
   }
 ```
 I can consider improving code for code usability.
 ```this.state``` is stored count variable.
-```
+```js
 formatCount() {
     const { count } = this.state;
     return count === 0 ? 'Zero' : count;
   }
 ```
 And now, I can use formatCount() method.
-```
+```js
 class Counter extends Component {
   state = {
       count: 0
@@ -179,7 +179,7 @@ When count is 1,
 ![Image Zero](/assets/zeroAndOne2.png)
 
 I can use bootstrap in components.
-```
+```js
 <span className="bg bg-primary m-2">{this.formatCount()}</span>
 <button className="btn btn-secondary btn-sm">Increment</button>
 ```
@@ -187,7 +187,7 @@ I can use bootstrap in components.
 ```class``` is reserved keyword, so use ```className```
 
 In JSX, I can use style attribute.
-```
+```js
 styles = {
     fontSize:10,
     fontWeight:'bold'

@@ -45,7 +45,7 @@ Result:
 
 ## 2. JavaScript Object
 You can make object and refer to it in the style attribute
-```
+```js
 class Counter extends Component {
   render() { 
       const style = {
@@ -63,14 +63,14 @@ class Counter extends Component {
 export default Counter;
 ```
 Make object with styling information.
-```
+```js
 const style = {
           fontSize: 50, 
           backgroundColor: "lightgreen"
       };
 ```
 And then, refer to it in the style attribute.
-```
+```js
 <span style={ this.style } >Zero</span>
 ```
 Result:

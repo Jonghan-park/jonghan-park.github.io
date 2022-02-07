@@ -14,13 +14,13 @@ tags:
 We need to make a react app first named my-react
 Open the command and move to the directory you want to make a new project. 
 
-```
+```js
 create-react-app my-react
 ```
 Several minutes later, 
 see if it's working on the local web browser. 
 
-```
+```js
 cd my-react
 npm start
 ```
@@ -35,7 +35,7 @@ You can delete all of files in src folder and make a new file.
 
 React project has to import object from module.
 
-```
+```js
 import React from 'react';
 import ReactDom from 'react-dom';
 ```
@@ -47,21 +47,21 @@ importing from 'react-dom' module.
 To define variable, use **const**, **let** or **var**. 
 **const** is a new feature in modern JavaScript.
 
-```
+```js
 const element = <h1>Hello World</h1>;
 ```
 
 You can declare a variable with a html like the code above.
 React is jsx, and it is a syntax extension to JavaScript.
 
-```
+```js
 ReactDom.render(element, document.getElementById('root'));
 ```
 
 First argument is the element that we want to render.
 Second argument is the specification of the container for our react application which is 'root'.
 
-```
+```js
 import React from 'react';
 import ReactDom from 'react-dom';
 

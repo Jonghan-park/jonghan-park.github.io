@@ -10,7 +10,7 @@ tags:
 ---
 
 This is from counter app.
-```
+```js
 render() {
     let classes = "bg m-2 bg-";
     classes += this.state.count === 0 ? "warning" : "primary";
@@ -26,7 +26,7 @@ render() {
   If count is 0, warning badge will be using. Otherwise, primary badge will
 show up. 
 
-```
+```js
 let classes = "bg m-2 bg-";
 classes += this.state.count === 0 ? "warning" : "primary";
 ```
@@ -36,7 +36,7 @@ These two lines can be encapsulated using refactor feature provided in IDE.
   <source src="/assets/Video/SimulateRefactor.mp4" type="video/mp4">
 </video>
 
-```
+```js
  render() {
     
     return (

@@ -11,12 +11,12 @@ tags:
 
  
 I can use Bootstrap which allow front-end features easily while I'm building a react app. Open the terminal and type a below code.
-```
+```js
 $ npm install bootstrap
 ```
 
 After that, I can use bootstrap simply putting a below code in the index.js of the project.
-```
+```js
 import 'bootstrap/dist/css/bootstrap.css';
 ```
 

@@ -11,7 +11,7 @@ tags:
 
 #### This posting is going to explain how to use components in React.
 
-```
+```js
 import React, { Component } from "react";
 
 class Counter extends Component {
