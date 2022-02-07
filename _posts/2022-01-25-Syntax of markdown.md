@@ -88,3 +88,9 @@ ___
   <source src="/assets/Video/SimulateRefactor.mp4" type="video/mp4">
 </video>
 
+- Colorful code
+
+Write js, html, ruby or python at only the first ```
+```
+```js, ```html, ```ruby or ```python
+```
