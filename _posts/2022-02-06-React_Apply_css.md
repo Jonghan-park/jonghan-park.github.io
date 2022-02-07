@@ -14,7 +14,7 @@ and this is what I learned applying CSS in react project so far.
 There are two ways more, but these two things I will be writing in this post is easiest way.
 
 ## 1. Inline styling
-```
+```js
 class Counter extends Component {
   render() { 
     return (
@@ -28,19 +28,19 @@ class Counter extends Component {
 export default Counter;
 ```
 Notice that there are two curly braces in the tag. 
-```
+```js
 {{ fontSize: 30, backgroundColor: "lightblue" }}
 ```
 To use CSS properties in react, You should change a CSS property name to **camel case** syntax.
-ex) 
-| CSS        | React     |
-|------------|-----------|
-| font-size  | fontSize  |
-| font-weight| fontWeight|
-| font-family| fontFamily|
-| text-align | textAlign |
-
-Result:
+ex)   
+| CSS        | React     |  
+|------------|-----------|  
+| font-size  | fontSize  |  
+| font-weight| fontWeight|  
+| font-family| fontFamily|  
+| text-align | textAlign |  
+  
+Result:  
 ![Image install extention](/assets/applyCSS1.png)
 
 ## 2. JavaScript Object
@@ -73,6 +73,6 @@ And then, refer to it in the style attribute.
 ```js
 <span style={ this.style } >Zero</span>
 ```
-Result:
+Result:  
 ![Image install extention](/assets/applyCSS2.png)
 
