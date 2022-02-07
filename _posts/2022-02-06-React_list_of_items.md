@@ -34,5 +34,12 @@ state = {
     );
   }
   ```
-  In this code, we have an array which has three items named **items**  
-  
+  In this code, we have an array which has three items named **items**
+
+  ```js
+  { this.state.items.map(item => <li>{ item }</li>)}
+  ```
+Each item map it to a list item
+
+Result:  
+![Image import counter](/assets/listItems.png)
