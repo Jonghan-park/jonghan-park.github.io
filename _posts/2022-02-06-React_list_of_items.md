@@ -107,11 +107,12 @@ How?
 
 true && false = false  
 true && "Hello" = ??  
-  
-  
-   
-  
-    
-    
-   
+
+\
+\
+\
+\
+\
+\
+
 Answer is Hello
