@@ -43,3 +43,29 @@ Each item map it to a list item
 
 Result:  
 ![Image import counter](/assets/listItems.png)
+
+
+## Conditional rendering
+
+```js
+state = {
+      count: 0
+      items: ['item1', 'item2', 'item3']
+   };
+
+   renderTags() {
+       if(this.state.items.length === 0) return <p>There are no items!</p>;
+
+       return <ul>{ this.state.items.map(item => <li>{ item }</li>)}</ul>;
+   }
+
+  render() {
+    
+    return (
+      <div>
+        { this.renderTags() }
+      </div>
+    );
+  }
+  ```
+  If the items array is empty, the paragraph tag will display.
