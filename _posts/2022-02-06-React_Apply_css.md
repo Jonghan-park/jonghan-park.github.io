@@ -19,7 +19,7 @@ class Counter extends Component {
   render() { 
     return (
         <div>
-        <span style={{ fontSize: 30, backgroundColor: "lightblue" }} >Zero</span>
+        <span style={ { fontSize: 30, backgroundColor: "lightblue" } } >Zero</span>
       </div>
     );
   }
@@ -31,7 +31,7 @@ export default Counter;
 Notice that there are two curly braces in the tag. 
 
 ```js
-{{ fontSize: 30, backgroundColor: "lightblue" }}
+{ { fontSize: 30, backgroundColor: "lightblue" } }
 ```
 
 To use CSS properties in react, You should change a CSS property name to **camel case** syntax.
