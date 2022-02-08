@@ -27,10 +27,13 @@ class Counter extends Component {
  
 export default Counter;
 ```
+
 Notice that there are two curly braces in the tag. 
+
 ```js
 {{ fontSize: 30, backgroundColor: "lightblue" }}
 ```
+
 To use CSS properties in react, You should change a CSS property name to **camel case** syntax.
 ex)   
 | CSS        | React     |  
