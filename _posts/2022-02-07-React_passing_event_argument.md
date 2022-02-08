@@ -71,3 +71,17 @@ In handleIncrement method,
    };
 ```
 The value **id: 1** will be passed to product, so **id: 1** will be displayed on console when I clicked the button.
+
+The solution a little bit looks complicated, so here is the better solution.
+
+```js
+handleIncrement = (product) => {
+     console.log(product);
+     this.setState({ count: this.state.count + 1 });
+   };
+
+<button onClick={ () => this.handleIncrement({ id: 1 }) } className="btn btn-secondary btn-sm">Increment</button>
+      </div>
+```
+
+Without making any method, I can just define in button area.
