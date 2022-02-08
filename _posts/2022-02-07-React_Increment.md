@@ -39,6 +39,10 @@ This Counter class inherit Component which has setState().
 I should use that method to change the value of state.
 
 ```js
-this.state.count++     X
+handleIncrement = () => {
+        this.state.count++     
+    } 
 ```
 It doesn't work in this way.
+
+
