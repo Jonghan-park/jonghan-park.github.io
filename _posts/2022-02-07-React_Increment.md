@@ -27,7 +27,7 @@ class Counter extends Component {
     return (
       <div>
         <span>{ this.state.count }</span>
-        <button onClick={ this.handleIncrement() } className="btn btn-secondary btn-sm">Increment</button>
+        <button onClick={ this.handleIncrement } className="btn btn-secondary btn-sm">Increment</button>
       </div>
     );
   }
