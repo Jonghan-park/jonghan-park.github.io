@@ -35,10 +35,19 @@ ReactDOM.rende(
 I'm going to import our new component named **Counters** and render **Counters**.
 #### After
 ```js
-import Counter from './components/counter';
+import Counters from './components/counters';
 
 ReactDOM.rende(
-  <Counter />,
+  <Counters />,
   document.getElementById('root')
 );
 ```
+Notice that import and render **Counters**
+
+Now, let's get back to our new component.
+Make a basic configuration.
+```js
+imrc -> tab
+cc -> tab
+```
+##### If you don't understand imrc and cc, please go to this blog posting. It will help you understand.
