@@ -81,3 +81,5 @@ Simply, we can use component by typing component name in the pointy brackets as 
 ![Image Using components](/assets/usingCounters.png)
 
 We can see the result has four counter that we made from our previous blog.
+
+Instead hard coding, we can do another way for code enhancement.
