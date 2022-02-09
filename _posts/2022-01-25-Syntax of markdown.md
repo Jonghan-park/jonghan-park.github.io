@@ -94,3 +94,12 @@ Write js, html, ruby or python at only the first ```
 ```
 ```js, ```html, ```ruby or ```python
 ```
+
+- image with link
+```js
+ [![image alt text](image URL link)](anchor link)
+```
+ex)
+```js
+[![React initialize](/assets/imrc.png)](https://jonghan-park.github.io/react/React_Initialize/)
+```
