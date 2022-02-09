@@ -79,3 +79,4 @@ In react, I can use the component as a tag.
 ```
 Simply, we can use component by typing component name in the pointy brackets as above examples code.
 
+![Image Using components](/assets/usingCounters.png)
