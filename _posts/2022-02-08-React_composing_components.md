@@ -50,6 +50,6 @@ Make a basic configuration.
 imrc -> tab
 cc -> tab
 ```
-##### If you don't understand imrc and cc, please go to this blog posting. It will help you understand.
- [React initialize](https://jonghan-park.github.io/react/React_Initialize/)
-
+#### If you don't understand imrc and cc, please go to this blog posting. It will help you understand.
+[![React initialize](/assets/imrc.png)](https://jonghan-park.github.io/react/React_Initialize/)
+**Click the image to open the posting**
