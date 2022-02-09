@@ -47,11 +47,35 @@ Notice that import and render **Counters**
 Now, let's get back to our new component.
 Make a basic configuration.
 ```js
-imrc -> tab
-cc -> tab
+imrc
+cc 
 ```
 ### If you don't understand imrc and cc, please go to this blog posting. It will help you understand.
-[![React initialize](/assets/imrc.png =250x125)](https://jonghan-park.github.io/react/React_Initialize/)  
+[![React initialize](/assets/imrc.png)](https://jonghan-park.github.io/react/React_Initialize/)  
 **Click the image to open the posting**  
 
+I'm going to import our counter component by adding lines at the top.
+```js
+import Counter from './counter';
+```
+Now, I can use Counter component in Counters component.
+
+```js
+state = {  } 
+    render() { 
+        return (
+            <div>
+            <Counter /> 
+            <Counter />
+            <Counter />
+            <Counter />
+            </div>
+        );
+    }
+```
+In react, I can use the component as a tag. 
+```js
+<Counter />
+```
+Simply, we can use component by typing component name in the pointy brackets as above examples code.
 
