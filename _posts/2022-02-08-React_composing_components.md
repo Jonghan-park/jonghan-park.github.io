@@ -23,7 +23,7 @@ I'm going to add another component named Counters which is going to render a lis
 
 In the index.js, 
 
-#### Before
+### Before
 ```js
 import Counter from './components/counter';
 
@@ -33,7 +33,7 @@ ReactDOM.rende(
 );
 ```
 I'm going to import our new component named **Counters** and render **Counters**.
-#### After
+### After
 ```js
 import Counters from './components/counters';
 
@@ -51,3 +51,5 @@ imrc -> tab
 cc -> tab
 ```
 ##### If you don't understand imrc and cc, please go to this blog posting. It will help you understand.
+ [React initialize](https://jonghan-park.github.io/react/React_Initialize/)
+
