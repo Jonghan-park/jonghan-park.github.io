@@ -60,7 +60,7 @@ import Counter from './counter';
 Now, I can use Counter component in Counters component.
 
 ```js
-state = {  } 
+state = {  }; 
     render() { 
         return (
             <div>
@@ -83,3 +83,40 @@ Simply, we can use component by typing component name in the pointy brackets as 
 We can see the result has four counter that we made from our previous blog.
 
 Instead hard coding, we can do another way for code enhancement.
+
+```js
+state = { 
+   counters: [
+     { id: 1, value: 0 },
+     { id: 2, value: 0 },
+     { id: 3, value: 0 },
+     { id: 4, value: 0 }
+   ]
+ }; 
+    render() { 
+        return (
+            <div>
+            <Counter /> 
+            <Counter />
+            <Counter />
+            <Counter />
+            </div>
+        );
+    }
+```
+We can add a new attribute named counters and set it to array.
+```js
+state = { 
+   counters: [
+     { id: 1, value: 0 },
+     { id: 2, value: 0 },
+     { id: 3, value: 0 },
+     { id: 4, value: 0 }
+   ]
+ }; 
+```
+Now, we can get rid of four components in div tag and add one line.
+
+```js
+{ this.state.counters.map(counter => <Counter key={counter.id} />) }
+```
