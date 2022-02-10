@@ -79,20 +79,21 @@ ___
 | Bananas      | **1.89**  | 5234       |
 
 - Embed video
-```
+```js
 <video width="320" height="240" controls>
   <source src="/assets/Video/SimulateRefactor.mp4" type="video/mp4">
 </video>
 ```
+
 <video width="320" height="240" controls>
   <source src="/assets/Video/SimulateRefactor.mp4" type="video/mp4">
 </video>
 
 - Colorful code
 
-Write js, html, ruby or python at only the first ```
-```
-```js, ```html, ```ruby or ```python
+Write js, html, ruby or python at only the first -```-
+```  
+  - ```js, ```html, ```ruby or ```python -
 ```
 
 - image with link
