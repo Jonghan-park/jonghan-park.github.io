@@ -104,3 +104,9 @@ ex)
 ```js
 [![React initialize](/assets/imrc.png)](https://jonghan-park.github.io/react/React_Initialize/)
 ```
+- image size
+
+```js
+<img src="REACT_logo.png" alt="drawing" width="100"/>
+```
+<img src="REACT_logo.png" alt="drawing" width="100"/>
