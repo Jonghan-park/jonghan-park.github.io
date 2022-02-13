@@ -111,16 +111,18 @@ ___
 ##### image size
 
 ```js
-<img src="/assets/REACT_logo.png" alt="drawing" width="100"/>
-```
-<img src="/assets/REACT_logo.png" alt="drawing" width="100"/>
+<img src="/assets/REACT_logo.png" alt="drawing" width="100"/>  
+```  
+<img src="/assets/REACT_logo.png" alt="drawing" width="100"/>  
+
 ___
 
 ##### Link  
 ```js  
 [Link text Here](https://www.youtube.ca)
 ```  
-[Link YouTube](https://www.youtube.ca)
+[Link YouTube](https://www.youtube.ca)  
+
 ___
 
 ##### Emoji  
