@@ -119,7 +119,7 @@ ex)
   
 - emoji  
 
-we can use emoji in markdown by simply copy and paste text from this link.
+we can use emoji in markdown by simply copy and paste emoji from this link.
   
-[Link YouTube](https://gist.github.com/rxaviers/7360908)
+[Link YouTube](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
 
