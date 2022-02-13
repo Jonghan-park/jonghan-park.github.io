@@ -110,3 +110,16 @@ ex)
 <img src="REACT_logo.png" alt="drawing" width="100"/>
 ```
 <img src="REACT_logo.png" alt="drawing" width="100"/>
+
+- Link  
+```js  
+[Link text Here](https://www.youtube.ca)
+```  
+[Link YouTube](https://www.youtube.ca)
+  
+- emoji  
+
+we can use emoji in markdown by simply copy and paste text from this link.
+  
+[Link YouTube](https://gist.github.com/rxaviers/7360908)
+
