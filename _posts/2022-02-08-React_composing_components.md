@@ -27,7 +27,7 @@ In the index.js,
 ```js
 import Counter from './components/counter';
 
-ReactDOM.rende(
+ReactDOM.render(
   <Counter />,
   document.getElementById('root')
 );
@@ -37,7 +37,7 @@ I'm going to import our new component named **Counters** and render **Counters**
 ```js
 import Counters from './components/counters';
 
-ReactDOM.rende(
+ReactDOM.render(
   <Counters />,
   document.getElementById('root')
 );
