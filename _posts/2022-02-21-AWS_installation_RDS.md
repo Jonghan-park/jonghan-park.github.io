@@ -20,3 +20,5 @@ tags:
 - Backup management is automated.
 - You can decide whether to release it on the Internet or not.
 - etc.
+
+# Security configuration
