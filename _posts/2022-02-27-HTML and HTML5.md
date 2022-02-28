@@ -8,3 +8,11 @@ tags:
   - HTML
   - HTML5
 ---
+
+This posting is for getting used to HTML & HTML5.  
+
+### tags
+Most elements have an opening tag and a closing tag. 
+```js
+<h1> ... </h1>
+```   
