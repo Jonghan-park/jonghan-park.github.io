@@ -21,4 +21,7 @@ This posting is for getting used to HTML & HTML5.
 
 ### Paragraph tag
 
-`<p></p>` tag is a paragraph tag to inform some texts.
+`<p></p>` tag is a paragraph tag to inform some texts.  
+
+### HTML5 tags
+In HTML5, there are ```<main></main>, <header></header>, <footer></footer>, <nav></nav>, <video></video>, <article></article>, <section></section>```  
