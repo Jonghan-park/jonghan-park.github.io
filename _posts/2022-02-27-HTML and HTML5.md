@@ -9,10 +9,16 @@ tags:
   - HTML5
 ---
 
-This posting is for getting used to HTML & HTML5.  
+This posting is for getting used to HTML & HTML5.
 
-### tags
-Most elements have an opening tag and a closing tag. 
+### header tag
+
+`<h1></h1>` tag is the most big size and bold fonts. There are 1 to 6, and it's going to be getting smaller.
+
 ```js
 <h1> ... </h1>
-```   
+```
+
+### Paragraph tag
+
+`<p></p>` tag is a paragraph tag to inform some texts.
