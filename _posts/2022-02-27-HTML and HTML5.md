@@ -25,3 +25,12 @@ This posting is for getting used to HTML & HTML5.
 
 ### HTML5 tags
 In HTML5, there are ```<main></main>, <header></header>, <footer></footer>, <nav></nav>, <video></video>, <article></article>, <section></section>```  
+These tags are easy to read, give a descriptive and help with Search Engine Optimization (SEO) and accessibility.  
+
+### Image tag
+```<img></img>``` This tag allow user to add image to a website.  
+```js
+<img src="/assets/html.jpg" alt="HTML main page">
+```  
+```alt``` attribute is used for screen readers.  
+
