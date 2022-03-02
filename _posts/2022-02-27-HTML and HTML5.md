@@ -43,3 +43,10 @@ These tags are easy to read, give a descriptive and help with Search Engine Opti
 ```js
 <a href="https://jonghan-park.github.io/">This is Jonghan's blog</a>
 ```  
+### Link to Internal section with Anchor Elements
+I can use the anchor tag to link internal section by using #.  
+```js
+<h2 id="contacts-header">Contacts</h2>
+...
+<a href="#contacts-header">Contacts</a>
+```  
