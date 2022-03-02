@@ -39,3 +39,7 @@ These tags are easy to read, give a descriptive and help with Search Engine Opti
 `alt` attribute is used for screen readers.
 
 ### Link to External Pages with Anchor Elements
+```<a></a>``` tag allow us to link to content outside of a web page. I need to use ```href``` attribute.
+```js
+<a href="https://jonghan-park.github.io/">This is Jonghan's blog</a>
+```  
