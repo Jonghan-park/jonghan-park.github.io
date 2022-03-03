@@ -79,7 +79,6 @@ If I don't know the link to put yet, I can use `#` in the `href` attribute.
 
 ```js
 <a href="#" target="_blank">
-  {" "}
-  ...{" "}
+  ...
 </a>
 ```
