@@ -62,12 +62,7 @@ I can nest links within other text elements.
 
 ```js
 <p>
-  Here's a{" "}
-  <a target="_blank" href="https://www.google.ca">
-    {" "}
-    link to Google
-  </a>{" "}
-  for you to follow.
+  Here's a <a target="_blank" href="https://www.google.ca"> link to Google </a> for you to follow.
 </p>
 ```
 
@@ -78,7 +73,5 @@ I can nest links within other text elements.
 If I don't know the link to put yet, I can use `#` in the `href` attribute.
 
 ```js
-<a href="#" target="_blank">
-  ...
-</a>
+<a href="#" target="_blank"> ... </a>
 ```
