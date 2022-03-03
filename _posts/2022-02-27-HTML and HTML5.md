@@ -39,23 +39,47 @@ These tags are easy to read, give a descriptive and help with Search Engine Opti
 `alt` attribute is used for screen readers.
 
 ### Link to External Pages with Anchor Elements
-```<a></a>``` tag allow us to link to content outside of a web page. I need to use ```href``` attribute.
+
+`<a></a>` tag allow us to link to content outside of a web page. I need to use `href` attribute.
+
 ```js
 <a href="https://jonghan-park.github.io/">This is Jonghan's blog</a>
-```  
+```
+
 ### Link to Internal section with Anchor Elements
-I can use the anchor tag to link internal section by using #.  
+
+I can use the anchor tag to link internal section by using #.
+
 ```js
 <h2 id="contacts-header">Contacts</h2>
 ...
 <a href="#contacts-header">Contacts</a>
-```  
+```
+
 ### Nest an Anchor tag within a paragraph
-I can nest links within other text elements.   
+
+I can nest links within other text elements.
+
 ```js
 <p>
-  Here's a <a target="_blank" href="https://www.google.ca"> link to Google</a> for you to follow.
+  Here's a{" "}
+  <a target="_blank" href="https://www.google.ca">
+    {" "}
+    link to Google
+  </a>{" "}
+  for you to follow.
 </p>
-```  
-```target``` is an attribute that specifies where to open the link. The value ```_blank``` specifies to open the link in a new tab.  
-### 
+```
+
+`target` is an attribute that specifies where to open the link. The value `_blank` specifies to open the link in a new tab.
+
+### Using `#` to make dead Links
+
+If I don't know the link to put yet, I can use `#` in the `href` attribute.
+
+```js
+<a href="#" target="_blank">
+  {" "}
+  ...{" "}
+</a>
+```
