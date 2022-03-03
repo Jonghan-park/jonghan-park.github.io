@@ -51,3 +51,11 @@ I can use the anchor tag to link internal section by using #.
 <a href="#contacts-header">Contacts</a>
 ```  
 ### Nest an Anchor tag within a paragraph
+I can nest links within other text elements.   
+```js
+<p>
+  Here's a <a target="_blank" href="https://www.google.ca"> link to Google</a> for you to follow.
+</p>
+```  
+```target``` is an attribute that specifies where to open the link. The value ```_blank``` specifies to open the link in a new tab.  
+### 
