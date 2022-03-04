@@ -79,3 +79,11 @@ If I want to make the image with link, I can nest the image within an ```a``` el
 ```js
 <a href="#" target="_blank"> <img src="assets/img.jpg" alt="Image">... </a>
 ```  
+### Create a list
+```js
+<ul>
+  <li>...</li>
+  <li>...</li>
+  <li>...</li>
+</ul>
+```  
