@@ -75,3 +75,7 @@ If I don't know the link to put yet, I can use `#` in the `href` attribute.
 ```js
 <a href="#" target="_blank"> ... </a>
 ```
+If I want to make the image with link, I can nest the image within an ```a``` element.  
+```js
+<a href="#" target="_blank"> <img src="assets/img.jpg" alt="Image">... </a>
+```  
