@@ -100,3 +100,9 @@ result:
 2.  ...   
 3.  ...  
 ```  
+### Create Text field
+```input``` elements are self-closing.
+I can create a text input field.  
+```js
+<input type="text">
+```  
