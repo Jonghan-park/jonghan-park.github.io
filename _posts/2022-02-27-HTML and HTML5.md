@@ -81,9 +81,22 @@ If I want to make the image with link, I can nest the image within an ```a``` el
 ```  
 ### Create a list
 ```js
-<ul>
-  <li>...</li>
-  <li>...</li>
-  <li>...</li>
-</ul>
+<ul>  
+  <li>...</li>  
+  <li>...</li>  
+  <li>...</li>  
+</ul>  
+```  
+or put number in front of each element.  
+```js
+<ol>  
+  <li>...</li>  
+  <li>...</li>  
+  <li>...</li>  
+</ol>  
+  
+result:  
+1.  ...  
+2.  ...   
+3.  ...  
 ```  
