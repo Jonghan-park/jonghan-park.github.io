@@ -106,3 +106,7 @@ I can create a text input field.
 ```js
 <input type="text">
 ```  
+### Placeholder
+```js
+<input type="text" placeholder="this is placeholder text">
+```  
