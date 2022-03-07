@@ -88,7 +88,7 @@ If I want to make the image with link, I can nest the image within an ```a``` el
 </ul>  
 ```  
 or put number in front of each element.  
-```js
+```html
 <ol>  
   <li>...</li>  
   <li>...</li>  
@@ -103,10 +103,16 @@ result:
 ### Create Text field
 ```input``` elements are self-closing.
 I can create a text input field.  
-```js
+```html
 <input type="text">
 ```  
 ### Placeholder
-```js
+```html
 <input type="text" placeholder="this is placeholder text">
 ```  
+### Form element
+```html
+<form action="url-where-you-want-to-submit-form-data">
+  <input>
+</form>
+```
