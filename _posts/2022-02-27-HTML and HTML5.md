@@ -15,7 +15,7 @@ This posting is for getting used to HTML & HTML5.
 
 `<h1></h1>` tag is the most big size and bold fonts. There are 1 to 6, and it's going to be getting smaller.
 
-```js
+```html
 <h1> ... </h1>
 ```
 
@@ -32,7 +32,7 @@ These tags are easy to read, give a descriptive and help with Search Engine Opti
 
 `<img></img>` This tag allow user to add image to a website.
 
-```js
+```html
 <img src="/assets/html.jpg" alt="HTML main page">
 ```
 
@@ -42,7 +42,7 @@ These tags are easy to read, give a descriptive and help with Search Engine Opti
 
 `<a></a>` tag allow us to link to content outside of a web page. I need to use `href` attribute.
 
-```js
+```html
 <a href="https://jonghan-park.github.io/">This is Jonghan's blog</a>
 ```
 
@@ -50,7 +50,7 @@ These tags are easy to read, give a descriptive and help with Search Engine Opti
 
 I can use the anchor tag to link internal section by using #.
 
-```js
+```html
 <h2 id="contacts-header">Contacts</h2>
 ...
 <a href="#contacts-header">Contacts</a>
@@ -60,7 +60,7 @@ I can use the anchor tag to link internal section by using #.
 
 I can nest links within other text elements.
 
-```js
+```html
 <p>
   Here's a <a target="_blank" href="https://www.google.ca"> link to Google </a> for you to follow.
 </p>
@@ -72,15 +72,15 @@ I can nest links within other text elements.
 
 If I don't know the link to put yet, I can use `#` in the `href` attribute.
 
-```js
+```html
 <a href="#" target="_blank"> ... </a>
 ```
 If I want to make the image with link, I can nest the image within an ```a``` element.  
-```js
+```html
 <a href="#" target="_blank"> <img src="assets/img.jpg" alt="Image">... </a>
 ```  
 ### Create a list
-```js
+```html
 <ul>  
   <li>...</li>  
   <li>...</li>  
