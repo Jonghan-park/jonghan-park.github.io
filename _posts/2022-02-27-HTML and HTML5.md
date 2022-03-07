@@ -110,9 +110,11 @@ I can create a text input field.
 ```html
 <input type="text" placeholder="this is placeholder text">
 ```  
-### Form element
+### Form element & button in a form
 ```html
 <form action="url-where-you-want-to-submit-form-data">
-  <input>
+  <input type="text" placeholder="Full name">
+  <button type="submit">Submit</button>
 </form>
-```
+```  
+
