@@ -119,3 +119,9 @@ I can create a text input field.
 ```  
 ### Create a set of radio buttons
 
+
+```html
+<label> 
+  <input type="radio" name="indoor-outdoor">Indoor 
+</label>
+```
