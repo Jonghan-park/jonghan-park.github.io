@@ -1,5 +1,5 @@
 ---
-title: "CSS layout"
+title: "CSS Display preperty"
 header:
   image: /assets/css.jpg
 categories:
@@ -8,3 +8,4 @@ tags:
   - CSS
   - layout
 ---
+
