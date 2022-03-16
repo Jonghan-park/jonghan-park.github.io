@@ -22,3 +22,4 @@ tags:
 - etc.
 
 # Security configuration
+- This section will be filled in when I completed figuring out how to create EC2 and connect with RDS and EC2.
