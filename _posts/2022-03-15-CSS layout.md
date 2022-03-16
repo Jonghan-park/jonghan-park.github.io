@@ -9,3 +9,8 @@ tags:
   - layout
 ---
 
+## Property Values
+  
+#### inline
+Displays an element as an inline element (like <span>). Any **height** and **width** properties will have no effect   
+
