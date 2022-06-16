@@ -12,8 +12,6 @@ tags:
   - Express
 ---
 
-# Mern Project - A project manager
-
 ### The project manager is for management of projects which user can add, view, edit and delete (CRUD functions) a project. This project is used React, bootstrap and apollo client for a front-end, GraphQL, Node.js and express-graphql for a server side, Mongo DB for a DATA side.
 
 ---
@@ -75,7 +73,7 @@ const port = process.env.PORT || 5000;
 ```
 
 - Set a port number instead of 3000 which is already set as default.
-- **_process.env.PORT || 5000;_**: In .env file, I already set a PORT number.
+- **process.env.PORT || 5000;**: In .env file, I already set a PORT number.
 
 ```js
 require("dotenv").config();
@@ -119,3 +117,49 @@ process.env.NODE_ENV === "development";
 - === (Triple equals) is a strict equality comparison operator in JavaScript, which returns false for the values which are not of a similar type. This operator performs type casting for equality. If we compare 2 with “2” using ===, then it will return a false value.
 
 - If process.env.NODE_ENV is 'development', true will be returned.
+
+```js
+const {projects, clients} = require('./sampleData.js')
+
+-----In the sampleData.js------
+const projects = [
+  { ... },
+  { ... },
+  { ... },
+];
+const clients = [
+  { ... },
+  { ... },
+  { ... },
+];
+```
+
+The variables in the sampleData.js are put in projects and clients variables.
+
+### Open graphql tool to test query
+
+- localhost:5000/graphql
+
+- To test type,
+
+```js
+{
+	client(id: "2") {
+    id,
+    name,
+    email,
+    phone,
+  }
+}
+// result
+{
+  "data": {
+    "client": {
+      "id": "2",
+      "name": "Natasha Romanova",
+      "email": "blackwidow@gmail.com",
+      "phone": "223-567-3322"
+    }
+  }
+}
+```
