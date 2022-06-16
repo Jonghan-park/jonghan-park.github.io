@@ -62,7 +62,7 @@ npm i -D nodemon dotenv
 const express = require("express");
 ```
 
-- **_require('express')_**: Returns a function reference. I have to use Node's **_require_** function to use the **\*express** module.
+- **_require('express')_**: Returns a function reference. I have to use Node's **_require_** function to use the **express** module.
 
 ```js
 const app = express();
@@ -93,3 +93,29 @@ app.listen(port, console.log(`Server running on port ${port}`));
 
 - Open the package.json -> "start": "node server/index.js" If I run **_start_** on the command, **_node server/index.js_** will be running.
 - Open the package.json -> "dev": "nodemon server/index.js" If I run **_dev_** on the command, **_nodemon server/index.js_** will be running.
+
+```js
+app.use();
+```
+
+- app.use() is used to bind **application-level middleware** to an instance of the app object which is instantiated on the creation of the Express server (router. use() for **router-level middleware**)
+
+```js
+app.use(
+  "/graphql",
+  graphqlHTTP({
+    schema,
+    graphiql: process.env.NODE_ENV === "development",
+  })
+);
+```
+
+- I can use the express-graphql library to mount a GraphQL API server on the “/graphql” HTTP endpoint
+
+```js
+process.env.NODE_ENV === "development";
+```
+
+- === (Triple equals) is a strict equality comparison operator in JavaScript, which returns false for the values which are not of a similar type. This operator performs type casting for equality. If we compare 2 with “2” using ===, then it will return a false value.
+
+- If process.env.NODE_ENV is 'development', true will be returned.
