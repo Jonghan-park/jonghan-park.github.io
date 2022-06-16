@@ -55,3 +55,24 @@ npm i -D nodemon dotenv
 - **_nodemon_**: nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
 - **_dotenv_**: Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env
+
+### Explanation for each line
+
+```js
+const express = require("express");
+```
+
+- **_require('express')_**: Returns a function reference. I have to use Node's **_require_** function to use the **\*express** module.
+
+```js
+const app = express();
+```
+
+- **_express();_**: Creates a object to start a new Express application.
+
+```js
+const port = process.env.PORT || 5000;
+```
+
+- Set a port number instead of 3000 which is already set as default.
+- **_process.env.PORT || 5000;_**: In .env file, I already set a PORT number.
