@@ -76,3 +76,20 @@ const port = process.env.PORT || 5000;
 
 - Set a port number instead of 3000 which is already set as default.
 - **_process.env.PORT || 5000;_**: In .env file, I already set a PORT number.
+
+```js
+require("dotenv").config();
+```
+
+- DotEnv is a lightweight npm package that automatically loads environment variables from a . env file into the process. env object.
+
+```js
+app.listen(port, console.log(`Server running on port ${port}`));
+```
+
+- **_app.listen(port number);_**: The app.listen() function is used to bind and listen the connections on the specified host and port.
+
+### Set script in package.json
+
+- Open the package.json -> "start": "node server/index.js" If I run **_start_** on the command, **_node server/index.js_** will be running.
+- Open the package.json -> "dev": "nodemon server/index.js" If I run **_dev_** on the command, **_nodemon server/index.js_** will be running.
