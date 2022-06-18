@@ -164,6 +164,8 @@ The variables in the sampleData.js are put in projects and clients variables.
 }
 ```
 
+### What is resolve() ?
+
 ```js
 clients: {
       type: new GraphQLList(ClientType),
@@ -178,3 +180,36 @@ clients: {
 ### Exclude .env file when committing
 
 - Using .gitignore file -> Make a .gitignore file and enter .env
+- Type command `git rm --cached .env` to stop tracking .env file
+
+### async() ?
+
+- Asynchronous code allows the program to be executed immediately where the synchronous code will block further execution of the remaining code until it finishes the current one.
+
+### Arrow function
+
+```js
+let func = (arg1, arg2, ..., argN) => expression;
+
+Same with
+
+let func = function(arg1, arg2, ..., argN) {
+  return expression;
+};
+```
+
+For example,
+
+```js
+let sum = (a, b) => {
+  let result = a + b;
+  return result;
+};
+
+//function expression
+let age = prompt("What is your age?", 18);
+
+let welcome = age < 18 ? () => alert("Hello!") : () => alert("Greetings!");
+
+welcome();
+```
