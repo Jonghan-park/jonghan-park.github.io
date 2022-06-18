@@ -163,3 +163,18 @@ The variables in the sampleData.js are put in projects and clients variables.
   }
 }
 ```
+
+```js
+clients: {
+      type: new GraphQLList(ClientType),
+      resolve(parent, args){
+        return clients;
+      }
+    }
+```
+
+- **resolve()**: Resolver is a collection of functions that generate response for a GraphQL query. In simple terms, a resolver acts as a GraphQL query handler
+
+### Exclude .env file when committing
+
+- Using .gitignore file -> Make a .gitignore file and enter .env
