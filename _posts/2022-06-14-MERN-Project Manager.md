@@ -182,6 +182,10 @@ clients: {
 - Using .gitignore file -> Make a .gitignore file and enter .env
 - Type command `git rm --cached .env` to stop tracking .env file
 
+```js
+const connectDB = async () => {};
+```
+
 ### async() ?
 
 - Asynchronous code allows the program to be executed immediately where the synchronous code will block further execution of the remaining code until it finishes the current one.
