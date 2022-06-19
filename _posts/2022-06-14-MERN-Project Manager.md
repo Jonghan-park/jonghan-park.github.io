@@ -217,3 +217,19 @@ let welcome = age < 18 ? () => alert("Hello!") : () => alert("Greetings!");
 
 welcome();
 ```
+
+### Connect to MongoDB
+
+```js
+const conn = await mongoose.connect(precess.env.MONGO_URI);
+```
+
+- I can connect to MongoDB with the mongoose.connect()
+
+### colors
+
+```js
+console.log(`MongoDB Connected: ${conn.connection.host}`.cyan.underline.bold);
+```
+
+- cyan.underline.bold: The error log will be colored
