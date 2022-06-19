@@ -233,3 +233,22 @@ console.log(`MongoDB Connected: ${conn.connection.host}`.cyan.underline.bold);
 ```
 
 - cyan.underline.bold: The error log will be colored
+
+### JSON Schema - enum
+
+```js
+const ProjectSchema = new mongoose.Schema({
+  name: {
+    type: String,
+  },
+  description: {
+    type: String,
+  },
+  status: {
+    type: String,
+    enum: ["Not Started", "In progress", "Completed"],
+  },
+});
+```
+
+- I can define a set of values in a JSON Schema, but then in JSON data it takes only one of those values
