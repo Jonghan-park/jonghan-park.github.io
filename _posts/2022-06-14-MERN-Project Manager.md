@@ -348,3 +348,8 @@ mutation {
   }
 }
 ```
+
+### To create a frond-end job
+
+- Open another terminal and type `npx create-react-app client`
+- React app is going to be installed in project-management folder
