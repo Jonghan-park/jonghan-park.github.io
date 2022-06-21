@@ -353,3 +353,13 @@ mutation {
 
 - Open another terminal and type `npx create-react-app client`
 - React app is going to be installed in project-management folder
+
+### For front-end, install several tools
+
+```js
+npm i @apollo/client graphql react-router-dom react-icons
+```
+
+- **@apollo/client**: Apollo Client is a fully-featured caching GraphQL client with integrations for React, Angular, and more. It allows you to easily build UI components that fetch data via GraphQL.
+
+- **react-router-dom**: React Router DOM enables you to implement dynamic routing in a web app.
