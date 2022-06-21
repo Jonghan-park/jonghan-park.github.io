@@ -371,3 +371,22 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 - **ApolloProvider**: ApolloProvider wraps your React app and places Apollo Client on the context, which enables you to access it from anywhere in your component tree.
 - **ApolloClient**: Apollo Client is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL. Use it to fetch, cache, and modify application data, all while automatically updating your UI.
 - **InMemoryCache**: An in-memory cache is a data storage layer that sits between applications and databases to deliver responses with high speeds by storing data from earlier requests or copied directly from databases.
+
+```js
+import { gql, useQuery } from "@apollo/client";
+```
+
+- **gql**:
+- **useQuery**:
+
+```js
+import { useMutation } from '@apollo/client'
+```
+
+```js
+const onSubmit = (e) => {
+    e.preventDefault();
+    console.log(name, email, phone);
+  }
+```
+- **e.preventDefault()**: The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
