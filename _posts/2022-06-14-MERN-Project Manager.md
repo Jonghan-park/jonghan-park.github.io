@@ -363,3 +363,11 @@ npm i @apollo/client graphql react-router-dom react-icons
 - **@apollo/client**: Apollo Client is a fully-featured caching GraphQL client with integrations for React, Angular, and more. It allows you to easily build UI components that fetch data via GraphQL.
 
 - **react-router-dom**: React Router DOM enables you to implement dynamic routing in a web app.
+
+```js
+import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
+```
+
+- **ApolloProvider**: ApolloProvider wraps your React app and places Apollo Client on the context, which enables you to access it from anywhere in your component tree.
+- **ApolloClient**: Apollo Client is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL. Use it to fetch, cache, and modify application data, all while automatically updating your UI.
+- **InMemoryCache**: An in-memory cache is a data storage layer that sits between applications and databases to deliver responses with high speeds by storing data from earlier requests or copied directly from databases.
