@@ -39,3 +39,9 @@ npm install express mongoose cors
 ## Change a script already written in package.json
 
 - "start": "nodemon server.js"
+
+## cors (Cross Origin Resource Sharing)
+
+- Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+
+![Image cors](/assets/cors.png)
