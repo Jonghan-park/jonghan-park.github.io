@@ -31,3 +31,11 @@ npm install express mongoose cors
 ## app.use(express.json());
 
 - express.json() is a built in middleware function in Express starting from v4.16.0. It parses incoming JSON requests and puts the parsed data in req.body.
+
+## npm i -D nodemon
+
+- -D is a development dependency
+
+## Change a script already written in package.json
+
+- "start": "nodemon server.js"
