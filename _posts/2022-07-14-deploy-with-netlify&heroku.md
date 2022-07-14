@@ -48,7 +48,11 @@ Before I go try to deploy, I need to understand a few terms.
 },
 ```
 
-in `server/package.json` file. 5. Change port(?) 6. Creaqa a remote connection with Heroku
+in `server/package.json` file.
+
+5. Change port(?)
+
+6. Create a remote connection with Heroku
 
 - Make sure I'm in the root directory and type `heroku git:remote -a mern-social-login`
   This process will create a remote connection with Heroku and create a branch.
@@ -71,4 +75,15 @@ mern-stack-project-manager
 still-inlet-68127
 ```
 
-I don't have app on Heroku named mern-social-login, so I need to create an app on Heroku first. 7.
+I don't have app on Heroku named mern-social-login, so I need to create an app on Heroku first. 7. Push my server code
+
+- `git subtree push --prefix server heroku master`
+  server is the folder for backend
+  7-1. Error code h10
+  To check what the error is, take a look at several things down below.
+  7-1-1. Check Procfile
+
+7-1-2. Check Heroku environment variables
+`heroku run printenv`
+
+7-1-3. Missing required scripts
