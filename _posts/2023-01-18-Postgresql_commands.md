@@ -46,10 +46,3 @@ CREATE TABLE tablename(
   age INT
 );
 ```
-
-#### Datatype
-
-- VARCHAR is a text has a constraint on size.
--
-
----
