@@ -14,6 +14,10 @@ It's going to keep updating whenever I found a command I need.
 
 ## ✅ All keywords should be upper case
 
+SQL Cheat sheet
+
+![Image sql](/assets/sqlcheatsheet.jpg)
+
 Example)
 
 ```
