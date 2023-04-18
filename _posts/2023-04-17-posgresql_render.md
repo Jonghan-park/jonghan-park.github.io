@@ -14,7 +14,12 @@ I can use it only for 3 month which means I need to recreate every 3 month if I 
 
 ## Update .env with new properties of connections
 
-- I need to update **\_Hostname, username, password \*** in my previous project.
-  ![Image sql](/assets/renderConnections.jpg)
+- I need to update **_ Hostname, username, password _** in my previous project.
+  ![Image sql](/assets/renderConnections.png)
+  Go to .env file in my local folder or web server.
 
--
+## Make database in my new PostgreSQL database
+
+- There is the address to connect to my new database
+  ![Image sql](/assets/connectDB.png)
+  Copy and paste the address into terminal.
