@@ -73,3 +73,9 @@ var newInv = [
 
 updateInventory(curInv, newInv);
 ```
+
+Firstly, it is important to check whether the item already exists in the inventory. This allows us to determine whether to increase the quantity of the existing item or add a new item to the end of the inventory array.
+
+`getProductIndex()` serves as our helper method for locating the index.
+If a match is found, the function immediately returns the index `1`.
+If no match is found after iterating through all the elements, the function returns `undefined`
