@@ -79,3 +79,5 @@ Firstly, it is important to check whether the item already exists in the invento
 `getProductIndex()` serves as our helper method for locating the index.
 If a match is found, the function immediately returns the index `1`.
 If no match is found after iterating through all the elements, the function returns `undefined`
+
+`arr1` is invoked as this
