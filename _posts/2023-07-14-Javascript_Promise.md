@@ -24,3 +24,5 @@ A promise has three states:
 2. **Fulfilled**: The state when the asynchronous operation successfully completes, and the promise resolves with a value. Once fulfilled, the promise is considered "settled," and its associated value is available.
 
 3. **Rejected**: The state when the asynchronous operation encounters an error or fails to complete. Once rejected, the promise is considered "settled," and the reason for rejection (an error or failure message) is available.
+
+> A promise in JavaScript is an object representing the eventual completion or failure of an asynchronous operation, allowing for more organized and controlled handling of the operation's result.
