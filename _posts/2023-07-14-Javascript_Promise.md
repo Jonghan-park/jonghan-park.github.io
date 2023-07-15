@@ -26,3 +26,32 @@ A promise has three states:
 3. **Rejected**: The state when the asynchronous operation encounters an error or fails to complete. Once rejected, the promise is considered "settled," and the reason for rejection (an error or failure message) is available.
 
 > A promise in JavaScript is an object representing the eventual completion or failure of an asynchronous operation, allowing for more organized and controlled handling of the operation's result.
+
+# How to create Promise object
+
+```js
+const success = true;
+const myPromise = new Promise((myResolve, myReject) => {
+  if (success) {
+    const data = {
+      name: "Joseph",
+      age: 30,
+    };
+    myResolve(data);
+  } else {
+    myReject("Cannot pass the data");
+  }
+});
+```
+
+# How to use Promise object
+
+```js
+myPromise
+  .then((value) => {
+    console.log(value.name);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+```
