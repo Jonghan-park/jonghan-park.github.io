@@ -52,7 +52,14 @@ The cancellation was scheduled to occur after a delay of cancelTime (100ms), whi
  * @param {number} t
  * @return {Function}
  */
-var cancellable = function (fn, args, t) {};
+var cancellable = function (fn, args, t) {
+  const timeOut = setTimeout(() => {
+    fn(...args);
+  }, t);
+  return function () {
+    clearTimeout(timeOut);
+  };
+};
 
 /**
  *  const result = []
@@ -80,3 +87,9 @@ var cancellable = function (fn, args, t) {};
  *  }, maxT + 15)
  */
 ```
+
+Inside the function, a `setTimeout` is used to execute the `fn` function after a specified delay of `t` milliseconds. The `fn` function is called with the provided `args` as arguments.
+
+The `setTimeout` function returns a timer identifier, which is stored in the `timeOut` variable.
+
+Finally, the `cancellable` function returns another function that can be used to cancel the previously scheduled timeout by calling `clearTimeout` with the `timeOut` identifier.
